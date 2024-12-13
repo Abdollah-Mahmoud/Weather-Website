@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main {
+  height: 105vh;
+  background-image: url(banner.png);
+  background-repeat: no-repeat;
+  background-position: center 128px;
+  background-color: #1e202b;
+}
+
+#footer {
+  height: 30vh;
+  background-color: #2b2f45;
+}
+
+.my-nav {
+  background-color: #1e202b !important;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+nav .active {
+  font-family: Poppins, sans-serif;
+  font-size: 14px !important;
+  font-weight: 400;
+  margin-right: 30px;
+}
+
+nav .navbar-brand {
+  font-family: Montserrat, sans-serif;
+  font-size: 18px !important;
+  font-weight: 800;
+  padding-left: 50px;
+}
+
+.nav-link {
+  position: relative;
+  color: white;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  transition: all 0.3s;
+  border-radius: 20px;
+  padding: 2px;
+}
+
+.nav-link[href="#home"] {
+  border: 2px solid #009bd9;
+  border-radius: 20px;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  color: #009bd9 !important;
+}
+
+.nav-link:hover {
+  border: 2px solid #009bd9;
+  border-radius: 20px;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  color: #009bd9 !important;
+}
+
+.custom-input {
+  background-color: #1e202b;
+  color: white;
+  height: 60px;
+  font-size: 16px;
+  border: none;
+  padding-left: 20px;
+  margin-top: 80px;
+}
+
+.custom-input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.custom-input:focus {
+  outline: none;
+  background-color: #1e202b;
+  color: white;
+}
+
+.btn {
+  height: 50px;
+  border-radius: 50px;
+  background-color: #009bd9;
+  color: white;
+  margin-right: 5px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.custom-input2 {
+  background-color: #1e202b;
+  color: white;
+  height: 60px;
+  font-size: 16px;
+  border: none;
+  padding-left: 20px;
+  margin-top: 50px;
+}
+
+.custom-input2::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.custom-input2:focus {
+  outline: none;
+  background-color: #1e202b;
+  color: white;
+}
+
+.my-btn {
+  height: 50px;
+  border-radius: 50px;
+  background-color: #009bd9;
+  color: white;
+  margin-right: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.icona {
+  padding: 10px;
+  background-color: #1e202b;
+  margin: 2px;
+  color: #009bd9;
+}
+.icons {
+  margin-top: 50px;
+  margin-left: 70px;
+}
+
+.icona:hover {
+  padding: 10px;
+  background-color: #009bd9;
+  margin: 2px;
+  color: white;
+}
+
+.parag {
+  margin-top: 35px;
+  color: #cbcaca;
+}
+
+.cairo {
+  padding-top: 30px;
+}
+
+.head1 {
+  background-color: #2b2f45;
+  margin-left: -12px;
+  margin-right: -12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-top-left-radius: 10px;
+  padding-top: 10px;
+}
+
+.firstcard {
+  background-color: #333851;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.clear-word {
+  color: #009bd9;
+}
+
+.degree1-3 {
+  font-size: 100px;
+  font-weight: 600;
+  margin-top: -25px;
+}
+
+.icon-card1 {
+  margin-top: 40px;
+  font-size: 50px;
+  color: beige;
+  padding-right: 50px;
+}
+
+.small-icon3 {
+  padding-right: 150px;
+}
+
+/* ===========================================card2================================================================
+ */
+
+.secondcard {
+  background-color: #232637;
+
+  padding-bottom: 10px;
+}
+
+.head11 {
+  background-color: #1f2232;
+  margin-left: -12px;
+  margin-right: -12px;
+  padding-left: 12px;
+  padding-right: 12px;
+
+  padding-top: 10px;
+}
+
+.icon-card2 {
+  margin-top: 40px;
+  font-size: 50px;
+  color: beige;
+}
+
+.degree2-3 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 25px;
+}
+
+.mindegree2-3 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.clear2 {
+  color: #009bd9;
+  margin-top: 30px;
+}
+
+/* =============================================card3======================================================================== */
+
+.thirdcard {
+  background-color: #333851;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.head111 {
+  background-color: #2b2f45;
+  margin-left: -12px;
+  margin-right: -12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-top-right-radius: 10px;
+  padding-top: 10px;
+}
+
+.icon-card3 {
+  margin-top: 40px;
+  font-size: 50px;
+  color: beige;
+}
+
+.degree3-3 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 25px;
+}
+
+.mindegree3-3 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.clear3 {
+  color: #009bd9;
+  margin-top: 30px;
+}
+
+.width-row {
+  width: 100%;
+  margin: auto;
+  margin-top: 7%;
+}
+
+/* ==============================media query===================================================================================================================== */
+@media (max-width: 768px) {
+   #main{
+    height: 1300px;
+   } 
+  }
+
+  @media (max-width: 768px) {
+    #footer{
+     height: 500px;
+    } 
+   }

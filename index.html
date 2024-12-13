@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="main">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark my-nav shadow-sm">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"
+            ><i class="fa-solid fa-cloud fa-2x text-primary"></i> Weather</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-capitalize active" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize active" href="#News">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize active" href="#Live cameras"
+                  >Live cameras</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize active" href="#Photos"
+                  >Photos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize active" href="contact.html"
+                  >contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="position-relative">
+              <input
+                type="text"
+                id="cityInput"
+                class="form-control rounded-pill pe-5 custom-input"
+                placeholder="Find your location..."
+              />
+              <button
+                class="btn btn-primary position-absolute top-50 end-0 translate-middle-y rounded-pill"
+                type="submit"
+              >
+                Find
+              </button>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row width-row">
+              <div class="col-md-4 col-12 firstcard">
+                <div class="d-flex justify-content-center head1 text-white">
+                  <p id="date1"></p>
+                </div>
+                <p class="text-white cairo" id="region"></p>
+                <div class="d-flex justify-content-between">
+                  <span class="text-white degree1-3" id="temp"></span>
+                  <span><i class="fa-regular fa-moon icon-card1"></i></span>
+                </div>
+                <p class="clear-word" id="condition"></p>
+                <div class="d-flex justify-content-between text-white">
+                  <p class="small-icon1">
+                    <i class="fa-solid fa-umbrella-beach" id="uv"></i>
+                  </p>
+                  <p class="small-icon2">
+                    <i class="fa-solid fa-wind" id="windSpeed"></i>
+                  </p>
+                  <p class="small-icon3">
+                    <i class="fa-solid fa-right-long" id="windDirection"></i>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4 col-12 secondcard">
+                <div class="d-flex justify-content-center head11 text-white">
+                  <p id="date2"></p>
+                </div>
+
+                <div class="d-flex justify-content-center">
+                  <span id="uvIcon"> </span>
+                </div>
+
+                <div class="d-flex justify-content-center">
+                  <span class="text-white degree2-3" id="max1"></span>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <span class="text-white mindegree2-3" id="min1"></span>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <span class="clear2" id="condition2"></span>
+                </div>
+              </div>
+              <div class="col-md-4 col-12 thirdcard">
+                <div class="d-flex justify-content-center head111 text-white">
+                  <p id="date3"></p>
+                </div>
+
+                <div class="d-flex justify-content-center">
+                  <span><i class="fa-regular fa-sun icon-card3"></i></span>
+                </div>
+
+                <div class="d-flex justify-content-center">
+                  <span class="text-white degree3-3" id="max2"></span>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <span class="text-white mindegree3-3" id="min2"></span>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <span class="clear3" id="condition3"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="position-relative">
+              <input
+                type="text"
+                class="form-control rounded-pill pe-5 custom-input2"
+                placeholder="Enter your email to subscribe..."
+              />
+              <button
+                class="btn btn-primary position-absolute top-50 end-0 translate-middle-y rounded-pill my-btn"
+                type="submit"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="icons">
+              <i class="fa-brands fa-facebook fa-2x rounded-circle icona"></i
+              ><i class="fa-brands fa-twitter fa-2x rounded-circle icona"></i
+              ><i class="fa-brands fa-google fa-2x rounded-circle icona"></i
+              ><i class="fa-brands fa-pinterest fa-2x rounded-circle icona"></i>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <p class="parag">
+              Copyright 2024 Company name. Designed by Abdollah. All rights
+              reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="main.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+  </body>
+</html>
