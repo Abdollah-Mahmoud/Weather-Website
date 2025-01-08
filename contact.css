@@ -234,3 +234,15 @@ nav .navbar-brand {
   margin-top: 35px;
   color: #cbcaca;
 }
+
+@media (max-width: 768px) {
+  #mainContact {
+      height: 1250px;
+  }
+}
+
+@media (max-width: 768px) {
+  #footer {
+      height: 550px;
+  }
+}
